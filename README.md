@@ -9,7 +9,7 @@ Antes de iniciar, certifique-se de ter instalado:
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - (Opcional) Um editor de texto, como [VS Code](https://code.visualstudio.com/)
-
+- Instale o dbeaver [Dbeaver](https://dbeaver.io/)
 ## Estrutura dos Serviços
 
 - **db-metabase**: Banco de dados PostgreSQL utilizado pelo Metabase.
