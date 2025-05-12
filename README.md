@@ -2,6 +2,14 @@
 
 Este projeto utiliza o Docker Compose para orquestrar um ambiente com dois bancos de dados PostgreSQL e uma instância do Metabase.
 
+## Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- (Opcional) Um editor de texto, como [VS Code](https://code.visualstudio.com/)
+
 ## Estrutura dos Serviços
 
 - **db-metabase**: Banco de dados PostgreSQL utilizado pelo Metabase.
@@ -42,6 +50,15 @@ Este projeto utiliza o Docker Compose para orquestrar um ambiente com dois banco
 docker-compose down
 ```
 
+## Destruir todos os dados e volumes
+
+Para remover completamente os containers, redes e volumes (todos os dados serão perdidos):
+
+```sh
+docker-compose down -v
+```
+
 ---
 
+> [!NOTE] 
 > Siga as melhores práticas de segurança e não exponha suas credenciais em ambientes públicos.
